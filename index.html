@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.cdnfonts.com/css/jack-pirate-alt-personal-use"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initival-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./counter-style.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <div id="sbox" class="active1">
+        <input type="text" id="counter" placeholder="Enter the time" />
+        <button type="button" id="startButton">start</button>
+        <div id="error" class="active"></div>
+      </div>
+      <div id="CircleContainer" class="c100">
+        <span id="text-circle"></span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="message">
+        <span id="loading">loading...</span>
+        <br />
+        <span id="end">The counter ended successfully </span>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
